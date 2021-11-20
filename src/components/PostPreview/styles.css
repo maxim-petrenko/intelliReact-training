@@ -1,0 +1,12 @@
+.root {
+    padding: 10px;
+}
+
+.origin {
+
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+}
