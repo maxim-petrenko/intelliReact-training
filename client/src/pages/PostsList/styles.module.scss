@@ -1,0 +1,10 @@
+.wrapper {
+  padding: 0 2em;
+}
+
+.tile {
+  margin: 1.5em 0.5em;
+  &:first-of-type {
+    margin-top: 0.5em;
+  }
+}

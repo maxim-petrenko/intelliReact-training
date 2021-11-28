@@ -1,0 +1,16 @@
+.btn {
+  border-radius: var(--radiusStandard);
+  &:active, &:hover, & *:active, & *:hover {
+    color: var(--colorActive) !important;
+  }
+
+  color: var(--colorActive);
+  background: #fff;
+  border: none;
+
+  &--pressed {
+    background: var(--colorActive);
+    color: #fff;
+    border: 1px solid gray;
+  }
+}

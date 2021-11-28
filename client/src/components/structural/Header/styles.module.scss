@@ -1,0 +1,7 @@
+.header {
+  padding: 1rem 1.5rem;
+  & .text {
+    color: var(--colorTextHeading);
+  }
+}
+

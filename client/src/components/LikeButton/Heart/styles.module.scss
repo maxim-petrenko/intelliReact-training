@@ -1,0 +1,26 @@
+.filled {
+  margin: 2px;
+  button:hover &:hover, &:hover {
+    color: #fff;
+  }
+  button:active &:active, &:active {
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+  }
+}
+
+.outlined {
+  margin: 2px;
+  button:hover &:hover, &:hover {
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+  }
+  button:active &:active, &:active {
+    color: #fff;
+    fill: #fff;
+    stroke: #fff;
+  }
+
+}

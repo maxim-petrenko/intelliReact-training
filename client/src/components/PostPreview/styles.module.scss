@@ -1,0 +1,53 @@
+.root {
+  padding: 10px;
+
+  & .meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & .origin {
+    display: grid;
+    grid-template:
+          'avatar person person'
+          'avatar date date';
+    grid-column-gap: 1em;
+    justify-items: left;
+
+    & * {
+      margin: 0;
+    }
+
+    & .avatar {
+      grid-area: avatar;
+      place-self: center;
+    }
+
+    & .person {
+      grid-area: person;
+      color: var(--colorTextHeading);
+      font-size: 1em;
+    }
+
+    & .date {
+      grid-area: date;
+      margin: 0;
+      font-size: 0.75em;
+    }
+  }
+  & .divider {
+    margin: 1em 0;
+  }
+
+  & .content {
+    text-align: left;
+  }
+
+  & .more-btn {
+     padding-right: 0;
+     padding-left: 0;
+   }
+}
+
+
